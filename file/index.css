@@ -1,0 +1,41 @@
+.index-body{
+    height: 100vh;
+    width: 100vw;
+    top:0;
+    left:0;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    animation: index-screen ease-in-out 2s forwards;
+}
+
+.index-icon{
+    color: white;
+    position: relative;
+}
+
+
+.index-div{
+    font-size: 17pt;
+    position: absolute;
+    width: 7cm;
+    height: 1.5cm;
+    background-color: rgb(236, 236, 133);
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border-color: tomato;
+    border-style: solid;
+    color: black
+}
+
+@keyframes index-screen{
+    0%{opacity: 1;}
+    100%{opacity: 0;
+    visibility: hidden;}
+}

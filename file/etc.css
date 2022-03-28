@@ -1,0 +1,82 @@
+.etc__card{
+    width: 14.5cm;
+    height: 5cm;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.etc__card-info{
+    display: flex;
+}
+
+.etc__card-name{
+    font-size: large;
+}
+.etc__card-picture{
+    width: 3cm;
+    height: 3cm;
+    border-radius: 5px;
+    background-color: silver;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+
+.etc__card-info__box{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.etc__passport{
+    color: gray;
+    opacity: 0.2;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.etc-icon-box{
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.etc-icon-box__configue{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.etc-icon-box__configue:hover{
+    color: brown;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.etc-icon-box__two{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.etc-icon-box__span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}

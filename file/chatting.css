@@ -1,0 +1,67 @@
+.chat-add-box{
+    width: 97%;
+    height: 2cm;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.chat-add-box__title{
+    font-size: large;
+    color: inherit;
+}
+
+.chat-add-box__span{
+    font-size: small;
+    opacity: 0.5;
+}
+
+.chat-add-box__pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 40px;
+}
+
+.chatting-main-box{
+    margin-top: 20px;
+}
+
+.chatting-main-box__friends{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.chatting-main-box__msg{
+    width: 6cm;
+    height: 1cm;
+    border-radius: 10px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatting-main-box__msg-one{
+    font-size: small;
+}
+
+.firend-survivors__one:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    transition: all 0.2s ease-in-out;
+}
+
+.firend-survivors__one{
+    transition: all 0.2s ease-in-out;
+}
